@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Free, open, and resilient digital learning platform"
+    />
+    <title>Open Learning Cloud</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="app-header">
+        <h1>Open Learning Cloud</h1>
+        <user-profile></user-profile>
+      </header>
+
+      <nav class="app-nav">
+        <a href="#lessons">Lessons</a>
+        <a href="#create">Create</a>
+        <a href="#analytics">Analytics</a>
+      </nav>
+
+      <main class="app-main">
+        <div id="content"></div>
+      </main>
+
+      <footer class="app-footer">
+        <p>Built with ❤️ for educators and learners worldwide</p>
+        <p>
+          Powered by
+          <a href="https://firebase.google.com">Firebase</a>,
+          <a href="https://www.cloudflare.com">Cloudflare</a>, and the open web
+        </p>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
